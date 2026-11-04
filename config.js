@@ -6,7 +6,7 @@ const num = (v, d) => {
 module.exports = {
   host: process.env.MC_HOST || 'localhost',
   port: num(process.env.MC_PORT, 25565),
-  username: process.env.MC_USERNAME || 'FriendBot',
+  username: process.env.MC_USERNAME || 'Steve',
   version: process.env.MC_VERSION || undefined,
   auth: process.env.MC_AUTH || 'offline',
   owner: (process.env.OWNER_NAME || '').trim(),
